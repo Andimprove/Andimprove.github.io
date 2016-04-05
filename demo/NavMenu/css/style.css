@@ -1,0 +1,139 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.first{
+	height: 200px;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid #FF69B4;
+	margin-top: 50px;
+}
+.first ul li{
+	list-style: none;
+}
+.first ul li a{
+	display: block;
+	font-size: 16px;
+	line-height: 40px;
+	text-align: center;
+	height: 40px;
+	width: 100px;
+	background-color: #FF7F24;
+	text-decoration: none;
+}
+.first ul li a:hover{
+	color: #FFFFFF;
+	background-color: #FF4040;
+}
+.two{
+	height: 200px;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid #FF69B4;
+	margin-top: 50px;
+}
+.two ul li{
+	list-style: none;
+}
+.two ul li a{
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	height: 30px;
+	width: 100px;
+	line-height: 30px;
+	float: left;
+	background-color: #FF7F24;
+}
+.two ul li a:hover{
+	color: #FFFFFF;
+	background-color: #FF4040;
+}
+.three{
+	height: 200px;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid #FF69B4;
+	margin-top: 50px;
+	padding-top: 30px;
+}
+.three ul{
+	list-style: none;
+	border-bottom: 5px solid #f60;
+}
+.three ul li a{
+	display: block;
+	float: left;
+	font-size: 16px;
+	text-align: center;
+	text-decoration: none;
+	height: 30px;
+	width: 120px;
+	line-height: 30px;
+	background-image: url(../img/btnBg.png);
+	position: relative;
+	top: -30px;
+}
+.three ul li a:hover,.first{
+	color: #fff;
+	background-position: 0 -30px;
+}
+.four{
+	height: 200px;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid #FF69B4;
+	margin-top: 50px;
+}
+.four ul li{
+	list-style: none;
+}
+.four ul li a{
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	height: 30px;
+	width: 100px;
+	line-height: 30px;
+	float: left;
+	background-color: #FF7F24;
+}
+.four ul li a:hover{
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #FF4040;
+	position: relative;
+	top: -10px;
+}
+.five{
+	height: 200px;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid #FF69B4;
+	margin-top: 50px;
+}
+.five ul li{
+	list-style: none;
+}
+.five ul li a{
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	height: 30px;
+	width: 100px;
+	line-height: 30px;
+	float: left;
+	background-color: #FF7F24;
+}
+.five ul li a:hover{
+	color: #FFFFFF;
+	background-color: #FF4040;
+}

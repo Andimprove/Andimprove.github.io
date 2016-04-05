@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>divDrag登录浮层拖拽</title>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="divDrag.js"></script>
+	<link rel="stylesheet" type="text/css" href="divDrag.css">
+</head>
+<body>
+	<!-- 添加触发事件 -->
+	<a href="#" onclick="divDrag('uiId','titleId')">登录</a>
+	<!-- 登录浮层界面（默认显示） -->
+	<div class="dialog-main" id="uiId">
+		<div class="dialog-title" id="titleId">
+	<!-- 添加关闭登录界面 -->
+			<a href="#" class="closeButton" onclick="closeButton('uiId')">╳</a>
+		</div>
+	</div>
+</body>
+<script type="text/javascript">
+//以下默认打开页面执行一次鼠标点击链接
+	divDrag('uiId','titleId');
+</script>
+</html>

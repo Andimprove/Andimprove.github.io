@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" Content="text/html; charset=utf-8" />
+	<title>武汉光谷北斗控股集团</title>
+	<style type="text/css">
+	body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,
+	textarea,p,blockquote,th,td { 
+	    margin:0;
+	    padding:0;
+	}
+	#con{
+		text-align: center;
+		margin-top: 50px;
+	}
+	#network{
+    	height:500px;
+    	width:450px;
+		margin-top: 20px;
+		margin-bottom: 25px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.fieldsetup{
+		height: 160px;
+		width: 450px;
+		font-size: 16px;
+		-moz-border-radius:10px;-webkit-border-radius:10px;
+	}
+	.fieldsetdown{
+		height: 120px;
+		width: 450px;
+		margin-top: 30px;
+		font-size: 16px;
+		-moz-border-radius:10px;-webkit-border-radius:10px;
+	}
+	.lengend{
+		font-size: 16px;
+		margin-left: 12px;
+	}
+	.lablen p{
+		display: inline-block;
+		margin-left: 100px;
+		width: 100px;
+		text-align: center;
+	}
+	.lab{
+		margin-left: 100px;
+	}
+	.inputs{
+		margin-top: 6px;
+	}
+	.selectstyle{
+		margin-top: 2.5px;
+		width: 80px;
+	}
+	.key{
+		width: 100px;
+		height: 40px;
+		font-size: 16px;
+		margin-top: 40px;
+		margin-left: 185px
+	}
+	</style>
+</head>
+<body>
+<h1 id="con">武汉光谷北斗控股集团</h1>
+<div id="network">
+	<form name="webform" action="" method="post">
+		<fieldset class="fieldsetup">
+		<legend class="lengend">接收机网络配置</legend>
+			<label class="lablen"><p>IP地址：</p></label><input class="inputs" name="ipaddress" type="text" value="192.168.1.201" /><br />
+		    <label class="lablen"><p>子网掩码：</p></label><input class="inputs" name="subnetmask" type="text" value="255.255.255.0" /><br />
+		    <label class="lablen"><p>网关：</p></label><input class="inputs" name="gateway" type="text" value="192.168.1.1" /><br />
+		    <label class="lablen"><p>MAC地址：</p></label><input class="inputs" name="macaddress" type="text" value="0C 86 32 5A 70 3B" /><br />
+		    <label class="lablen"><p>TCP端口：</p></label><input class="inputs" name="tcpport" type="text" value="1200" /><br />
+		</fieldset>
+		<fieldset class="fieldsetdown">
+		<legend class="lengend">串口配置</legend>
+			<label class="lab">波特率：<span style="margin-left: 32px"></span></label><select name="baudrate" class="selectstyle">
+				<option value="1">4800</option>
+				<option value="2" selected="selected">9600</option>
+				<option value="3">19200</option>
+				<option value="4">38400</option>
+				<option value="5">56000</option>
+				<option value="6">57600</option>
+				<option value="7">115200</option>
+				<option value="8">194000</option>
+			</select><br />
+			<label class="lab">数据位：<span style="margin-left: 32px"></span></label><select name="databit" class="selectstyle">
+				<option value="1" selected="selected">8</option>
+				<option value="2">9</option>
+			</select><br />
+			<label class="lab">校验位：<span style="margin-left: 32px"></span></label><select name="checkbit" class="selectstyle">
+				<option value="1" selected="selected">NONE</option>
+				<option value="2">EVEN</option>
+				<option value="3">ODD</option>
+			</select><br />
+			<label class="lab">停止位：<span style="margin-left: 32px"></span></label><select name="stopbit" class="selectstyle">
+				<option value="1" selected="selected">1</option>
+				<option value="2">0.5</option>
+				<option value="3">2</option>
+				<option value="4">1.5</option>
+			</select><br />
+		</fieldset>
+		<input type="submit" name="submitdata" value="保存配置" class="key"></input>
+	</form>
+</div>
+</body>
+</html>

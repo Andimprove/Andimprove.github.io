@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>导航菜单</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+</head>
+<body>
+	<div class="five">
+		<ul>
+			<li><a href="#" class="changewidth">首<span style="margin-left: 32px"></span>页</a></li>
+			<li><a href="#" class="changewidth">新闻快讯</a></li>
+			<li><a href="#" class="changewidth">产品展示</a></li>
+			<li><a href="#" class="changewidth">售后服务</a></li>
+			<li><a href="#" class="changewidth">联系我们</a></li>
+		</ul>
+	</div>
+	<div class="four">
+		<ul>
+			<li><a href="#">首<span style="margin-left: 32px"></span>页</a></li>
+			<li><a href="#">新闻快讯</a></li>
+			<li><a href="#">产品展示</a></li>
+			<li><a href="#">售后服务</a></li>
+			<li><a href="#">联系我们</a></li>
+		</ul>
+	</div>
+	<div class="three">
+		<ul>
+			<li><a href="#">首<span style="margin-left: 32px"></span>页</a></li>
+			<li><a href="#">新闻快讯</a></li>
+			<li><a href="#">产品展示</a></li>
+			<li><a href="#">售后服务</a></li>
+			<li><a href="#">联系我们</a></li>
+		</ul>
+	</div>
+	<div class="two">
+		<ul>
+			<li><a href="#">首<span style="margin-left: 32px"></span>页</a></li>
+			<li><a href="#">新闻快讯</a></li>
+			<li><a href="#">产品展示</a></li>
+			<li><a href="#">售后服务</a></li>
+			<li><a href="#">联系我们</a></li>
+		</ul>
+	</div>
+	<div class="first">
+		<ul>
+			<li><a href="#">首<span style="margin-left: 32px"></span>页</a></li>
+			<li><a href="#">新闻快讯</a></li>
+			<li><a href="#">产品展示</a></li>
+			<li><a href="#">售后服务</a></li>
+			<li><a href="#">联系我们</a></li>
+		</ul>
+	</div>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script>
+		$(function() {
+			$('.changewidth').hover(
+				function(){
+					$(this).stop().animate({"width":"130px"},200);
+				},
+				function(){
+					$(this).stop().animate({"width":"100px"},200);
+				}
+				)
+})
+	</script>
+</body>
+</html>
