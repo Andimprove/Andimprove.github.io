@@ -148,14 +148,15 @@ a:hover{
 .timebox li{
     display: inline-block;
     margin-top: 5px;
-    width: 315px;
+    width: 295px;
     text-align: left;
 }
 .timex{
 	height: 27px;
 	width: 868px;
 	background: url(../img/timeline.png) no-repeat;
-	margin-left: 220px;
+	margin-left: auto;
+	margin-right: auto;
 }
 .workbox{
 	text-align: center;
@@ -164,7 +165,7 @@ a:hover{
 }
 .workbox li{
 	display: inline-block;
-	width: 315px;
+	width: 295px;
 	vertical-align: top;
 	text-align: left;
 }
