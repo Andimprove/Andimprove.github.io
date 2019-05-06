@@ -48,9 +48,6 @@ $(document).ready(function(){
     //覆盖原始logo跳转连接
     $("#anyanlogo").attr("href","http://andimprove.github.io");
     //关闭移动端部分div
-    if (!navigator.userAgent.match(/mobile/i)){
-    	$(".menu-box").hide();
-    };
     
     
 });
