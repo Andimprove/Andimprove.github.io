@@ -44,7 +44,9 @@ $(document).ready(function(){
         
         $(this).parent().parent().toggleClass("online-move");
         
-    })
+    });
+    //覆盖原始logo跳转连接
+    $("#anyanlogo").attr("href","http://andimprove.github.io");
     
     
 });
